@@ -39,6 +39,6 @@ It enhances the functionality of the original system by adding laser-controlled 
 
    Open the project folder in PlatformIO (Add on the Visual Studio) and upload to your DSC32
 
-4. **Check output:""
+4. **Check output:**
 
    Use the PlatformIO monitor to check if the ESP gets a connection to your Wifi and to the Adafruit MQTT Broker
