@@ -30,3 +30,15 @@ It enhances the functionality of the original system by adding laser-controlled 
 
    ```bash
    git clone https://github.com/JonahPi/LaserOrganizer_ESP32-code
+
+2. **Add your passwords:**
+
+   Open secrets.h and enter your Wifi and Adafruit passwords
+
+3. **Flash Firmware:**
+
+   Open the project folder in PlatformIO (Add on the Visual Studio) and upload to your DSC32
+
+4. **Check output:""
+
+   Use the PlatformIO monitor to check if the ESP gets a connection to your Wifi and to the Adafruit MQTT Broker
