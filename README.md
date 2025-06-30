@@ -4,7 +4,7 @@ The **Laser Organizer** is an extension to the [Smarte Werkstattboxen project](h
 
 It enhances the functionality of the original system by adding laser-controlled automation using a compact, modular hardware platform.
 
-You'll find a very brief description in the project [Wiki](https://github.com/JonahPi/LaserOrganizer_ESP32-code/wiki), a more comprehensive project report will follow in the German Maka-Magazin (4/2025)
+You'll find a very brief description in the project [Wiki](https://github.com/JonahPi/LaserOrganizer_ESP32-code/wiki), a more comprehensive project report will follow in the German Make-Magazin (4/2025)
 
 ---
 
