@@ -1,3 +1,5 @@
+![Laser Organizer](https://raw.githubusercontent.com/JonahPi/LaserOrganizer_Make04-25/main/pics/IMG_9098.JPG)
+
 # 🔧 Laser Organizer for ESP32 – Smarte Werkstattboxen Add-on
 
 The **Laser Organizer** is an extension to the [Smarte Werkstattboxen project](https://www.heise.de/select/make/2023/5/2317908275419508878) published in the German *Make Magazin* (Issue 5/2023).
