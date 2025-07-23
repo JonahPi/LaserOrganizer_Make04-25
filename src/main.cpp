@@ -41,6 +41,8 @@ int pan_target = 0;
 bool LedState = false;
 bool MotorMoving = false;
 unsigned long LedStartTime = 0;
+unsigned long lastWiFiCheck = 0;
+const unsigned long wifiCheckInterval = 5 * 60 * 1000; // 5 minutes in milliseconds
 
 
 // Function prototypes
@@ -77,6 +79,17 @@ void setup() {
 }
 
 void loop() {
+    if (millis() - lastWiFiCheck >= wifiCheckInterval) {
+        lastWiFiCheck = millis();  // reset the timer
+
+        if (WiFi.status() != WL_CONNECTED) {
+            Serial.println("WiFi disconnected. Restarting ESP...");
+            delay(1000);  // optional: give time for serial output
+            ESP.restart();
+        } else {
+            Serial.println("WiFi is still connected.");
+        }
+    }
     static unsigned long stepperEngagedUntil = 0;
     bool moved = false; 
 
